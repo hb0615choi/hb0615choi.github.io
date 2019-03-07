@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Try my Startup"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "hb0615choi"
+description              : "Try my Startup"
 url                      : "https://hb0615choi.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
