@@ -22,9 +22,8 @@
 ## Scenario
 
 ### 1. search address
-![](/assets/images/weprops_input.png)
 
-<img src="/assets/images/weprops_input.png" width="480">
+<img src="/assets/images/weprops_input.png" width="240">
 
 ```
 curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
@@ -47,7 +46,8 @@ curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
 
 ### 3. show list
 
-![](/assets/images/weprops_list.png)
+<img src="/assets/images/weprops_list.png" width="240">
+
 
 ### 4. user select then search address using address_name
 
