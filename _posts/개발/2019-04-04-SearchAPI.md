@@ -49,7 +49,15 @@ curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
 <img src="/assets/images/weprops_list.png" width="240">
 
 
-### 4. user select then search address using address_name
+### 4. user selected then search address using address_name
+
+```
+curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
+--data-urlencode "query=경기 화성시 반송동 80" \
+-H "Authorization: KakaoAK ef1da2c12cb3824dac99435cd1c4a666" 
+```
+
+  > [result](#address-search)
 
 ### 5. save data into cloud
 
