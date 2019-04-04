@@ -24,6 +24,8 @@
 ### 1. search address
 ![](/assets/images/weprops_input.png)
 
+<img src="/assets/images/weprops_input.png" width="480">
+
 ```
 curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
 --data-urlencode "query=반송동 80" \
