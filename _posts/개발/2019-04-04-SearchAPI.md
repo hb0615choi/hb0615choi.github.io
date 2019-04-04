@@ -1,13 +1,19 @@
-# Searh API
+---
+title: "how to use Search API"
+date: 2019-04-04 12:32:00 -0400
+categories: 공공API 건설 프롭테크
+---
 
-## address in Korea
+# Kakao API (Local Search)
+
+## address in Korea ?
 
 ### 지번주소 (lot number)
   - old style but goverment system use it
   - pnu is unique number of address which based on 지번주소
 
 #### pnu
-  - 19 digit number representing 지번주소
+  - 19 digit unique number representing 지번주소
 
 ![](/assets/images/pnu_detail.png)
 
@@ -17,6 +23,7 @@
 ### ex.)
   - 지번주소 : 화성시 반송동 80
   - 도로명주소 : 화성시 동탄중앙로 189
+  - pnu : 4159012700100800000
 
 
 ## Scenario
