@@ -1,27 +1,27 @@
-## Searh API
+# Searh API
 
-### address in Korea
+## address in Korea
 
-#### 지번
+### 지번
   - old style but goverment system use it
   - pnu is unique number of address which based on 지번
 
-##### pnu
+### pnu
   - 19 digit number representing 지번
 
 ![](/assets/images/pnu_detail.png)
 
-#### 도로명
+### 도로명
   - new style like western address system
 
-#### ex
+### ex.)
   - 지번 : 화성시 반송동 80
   - 도로명 : 화성시 동탄중앙로 189
 
 
-### Scenario
+## Scenario
 
-1. search address
+### 1. search address
 ![](/assets/images/weprops_input.png)
 
 ```
@@ -33,7 +33,7 @@ curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
   > [result](#address-search)
 
 
-2. if no result then search keyword
+### 2. if no result then search keyword
 
 ```
 curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
@@ -43,16 +43,16 @@ curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
 
   > [result](#keyword-search)
 
-3. show list
+### 3. show list
 
 ![](/assets/images/weprops_list.png)
 
-4. user select then search address using address_name
+### 4. user select then search address using address_name
 
-5. save data
+### 5. save data into cloud
 
 
-### data structure
+## data structure
 
   - addr : String (mandatory)
   - addr_sub : String (optional)
@@ -63,7 +63,7 @@ curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
   - pinned_area : Array (optional) : [59, 84, 112]
   - loan_info : todo
 
-#### data in xml
+### data in xml
   > [reference](#address-search)
 
   - addr : /result/documents/address_name
@@ -77,9 +77,9 @@ curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
   - shape : user input
   - pinned_area : user input
 
-  #### ex)
+### ex.)
 
-  ##### data.1
+#### data.1
 
   - addr : 경기 화성시 반송동 80
   - addr_sub : 346-1103
@@ -88,7 +88,7 @@ curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
   - shape : apt
   - own_type : own
 
-##### data.2
+#### data.2
 
   - addr : 서울시 반포동 2-12
   - addr_sub : 
@@ -101,11 +101,11 @@ curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
 
 
 
-### xml result
+## xml result
 
 
 
-#### address search
+### address search
 
 ```
 curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
@@ -161,7 +161,7 @@ curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
 </result>
 ```
 
-#### keyword search
+### keyword search
 
 ```
 curl -v -X GET "https://dapi.kakao.com/v2/local/search/address.xml" \
