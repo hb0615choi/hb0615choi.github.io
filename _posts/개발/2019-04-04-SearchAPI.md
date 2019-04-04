@@ -2,21 +2,21 @@
 
 ## address in Korea
 
-### 지번
+### 지번주소 (lot number)
   - old style but goverment system use it
-  - pnu is unique number of address which based on 지번
+  - pnu is unique number of address which based on 지번주소
 
-### pnu
-  - 19 digit number representing 지번
+#### pnu
+  - 19 digit number representing 지번주소
 
 ![](/assets/images/pnu_detail.png)
 
-### 도로명
+### 도로명주소 (road name)
   - new style like western address system
 
 ### ex.)
-  - 지번 : 화성시 반송동 80
-  - 도로명 : 화성시 동탄중앙로 189
+  - 지번주소 : 화성시 반송동 80
+  - 도로명주소 : 화성시 동탄중앙로 189
 
 
 ## Scenario
