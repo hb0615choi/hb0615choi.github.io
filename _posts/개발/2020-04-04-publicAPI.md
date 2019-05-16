@@ -1,6 +1,6 @@
 ---
-title: "how to use Search API"
-date: 2019-04-04 12:32:00 -0400
+title: "how to use public API"
+date: 2019-04-04 22:32:00 -0400
 categories: 공공API 건설 프롭테크
 ---
 
@@ -20,15 +20,11 @@ categories: 공공API 건설 프롭테크
 ### 도로명주소 (road name)
   - new style like western address system
 
-### ex.1) apt
+### ex.)
   - 지번주소 : 화성시 반송동 80
   - 도로명주소 : 화성시 동탄중앙로 189
   - pnu : 4159012700100800000
 
-### ex.2) land
-  - 지번주소 : 경기 용인시 처인구 남동 428-4
-  - 도로명주소 : N/A
-  - pnu : 4146110400104280004
 
 ## Scenario
 
